@@ -14,9 +14,7 @@ public class FizzBuzz {
         if (numberToInterpret % 5 == 0) {
             return "Buzz";
         }
-        if(numberToInterpret %7 ==0){
-            return "Bang";
-        }
+
         return "" + numberToInterpret;
     }
 }
